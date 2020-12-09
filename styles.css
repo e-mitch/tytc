@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Merriweather+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Dosis:wght@500&display=swap');
+#homeImage{
+  width:100%;
+  max-height:90vh;
+  margin-bottom:-5px;
+}
+
+#mobileHomeImage{
+  display:none;
+  max-height:90vh;
+}
+
+html, body{
+  padding:0;
+  margin:0;
+  height:100%;
+}
+
+body{
+  margin:0;
+  padding:0;
+  width:100%;
+  display:block;
+  background-color:#472D30;
+}
+
+#mainNav{
+  padding-top:2%;
+  display:inline;
+  width:50%;
+  padding-left:2%;
+  float:left;
+}
+
+nav a {
+  font-family: 'Fira Sans', sans-serif;
+  padding-left:2%;
+  padding-right:2%;
+  color: #C6D8D3;
+}
+
+nav a:hover{
+  color: #8884FF;
+}
+
+#siteName{
+  text-align:right;
+  font-family: 'Dosis', sans-serif;
+  color: #FFD400;
+}
+
+#title{
+  width: 48%;
+  float:left;
+}
+
+html{
+  margin:0;
+  padding:0;
+}
+
+header{
+  margin-bottom:-10px;
+  padding-right:2%;
+  background-color: #27187E;
+  display:block;
+}
+
+footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  font-family: 'Fira Sans', sans-serif;
+  text-align:center;
+  background-color: #C6D8D3;
+  opacity:80%;
+}
+
+body {
+width:100%;
+height:100%;}
+
+
+body {
+position: absolute;
+background-size: cover;
+background-attachment: fixed;}
+
+#resourcesNav{
+  width:96%;
+  padding-bottom:2%;
+  padding-top:1%;
+  text-align:center;
+  font-size:1.25em;
+}
+
+#resourcesNav img{
+  width:8%;
+  background-color: #ffffff;
+  padding:3px;
+  border-radius:3px;
+}
+
+#resourcesNav img:hover{
+  background-color:#FFD400;
+}
+
+h2{
+  font-family:'Dosis', sans-serif;
+  color: #ffffff;
+}
+
+.langDiv {
+  float:left;
+  display:block;
+  width:98%;
+  margin-left:1%;
+  margin-right:1%;
+  border: 2px solid #C6D8D3;
+  margin-bottom: 1%;
+  border-radius:10px;
+}
+
+.langHeader{
+  color: #27187E;
+  text-align:left;
+  padding-left:8px;
+  font-size:2em;
+}
+
+.langImg{
+  display:inline;
+  width:13%;
+  padding-left:8px;
+  float:left;
+  padding-top:8px;
+  padding-right:11px;
+  padding-bottom:3px;
+}
+
+.langDiv p, .historyOf ul, .historyOf{
+    color: #C6D8D3;
+    line-height:1.6;
+}
+
+.historyOf{
+  display:inline;
+  width: 98%;
+  float: left;
+  padding-left:8px;
+  padding-right:40px;
+  text-align:left;
+  font-family: 'Fira Sans', sans-serif;
+  color:#000000;
+}
+
+.historyOf a{
+  color:#ffffff;
+}
+
+.historyOf a:hover{
+  color:#8884FF;
+}
+
+.historyOf ul{
+  display:block;
+}
+.resources{
+  width: 100%;
+  display:inline;
+  float:left;
+  font-family: 'Fira Sans', sans-serif;
+  line-height:1.5em;
+}
+
+.resources a {
+  color: #FFD400;
+}
+
+.resources a:hover{
+  color:#8884FF;
+}
+
+h1{
+  text-align:center;
+  color:#9BA2FF;
+  font-family:'Merriweather Sans', sans-serif;
+}
+
+#pageHeader{
+  clear:both;
+  background-color:#9BA2FF;
+  width:100%;
+  display:block;
+}
+
+.quote{
+  background-color: #9BA2FF;
+  color:#ffffff;
+  position:relative;
+  float:right;
+  width: 200px;
+  height: 200px;
+  border:2px solid #F6AE2D;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align:center;
+  border-radius:5px;
+  margin:0;
+}
+
+.previewText{
+  display:none;
+}
+.resourcesUL{
+  width:60%;
+  float:left;
+  color:#ffffff;
+}
+
+#javaPreview, #htmlPreview, #jsPreview{
+  width:35%;
+  float:right;
+  background-color: #fffaed;;
+  border-radius:5px;
+  margin-left:2%;
+  padding:4px;
+  font-family: 'Dosis';
+  margin-bottom:5px;
+  margin-right:5px;
+}
+
+#javaPreview p, #jsPreview p {
+    color:#472D30;
+}
+
+#java h1, #javascript h1{
+  color:#FFD400;
+  font-family:'Dosis', sans-serif;
+  font-size:3em;
+}
+
+#html h1{
+  color:#773344;
+  font-family:'Dosis', sans-serif;
+  font-size:3em;
+}
+.conceptsNav a{
+  color:#595758;
+  padding-top:0;
+}
+
+.conceptsNav{
+  padding-bottom:10px;
+  text-align:center;
+}
+#whatIs h2{
+  text-align:center;
+  color: #C6D8D3;
+}
+
+#whatIs p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size:1.1em;
+  color: #ffffff;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.startEmph{
+  font-size: 1.2em;
+  color: #FFD400;
+}
+
+.source a {
+  text-align:right;
+  font-size:0.8em;
+}
+
+#whatIs a{
+  color: #8884FF;
+  font-family: 'Cutive Mono', sans-serif;
+}
+
+#whatIs a:hover{
+  color: #B7B5FF;
+}
+
+#whatIs h2{
+  font-size: 1.7em;
+  text-align:center;
+}
+
+#whatIs{
+  display:block;
+  width:100%;
+}
+.conceptsNav a{
+  color: #FFD400;
+  font-size:1.1em;
+}
+
+.conceptsNav a:hover{
+  color: #ffef9e;
+}
+
+.concepts p{
+  font-family:'Fira Sans', sans-serif;
+  color: #ffffff;
+}
+
+h2{
+  font-size:2em;
+  text-align:center;
+}
+
+.concepts p a{
+  color:#C6D8D3;
+}
+
+.concepts p a:hover{
+  color: #ffef9e;
+}
+
+.topicImg{
+  text-align:right;
+}
+
+.javaTopic, .htmlTopic, .jsTopic{
+  display:none;
+}
+
+.javaTopicImg, .htmlTopicImg, .jsTopicImg{
+  float:left;
+  width:30%;
+  display:block;
+  padding-right:10px;
+}
+
+.htmlTopicImg{
+  width:40%;
+}
+.resourcesHolder{
+  padding:5px;
+  display:block;
+  height:flex;
+}
+h3{
+  padding-left: 12px;
+}
+
+#html{
+  background-color:#C6D8D3;
+}
+
+#html p, #html ul li{
+  color:#472D30;
+}
+
+#html a{
+  color:#773344;
+}
+
+#html a:hover{
+  color:#8884FF;
+}
+
+#html h2, #html h3{
+  color:#8884FF;
+}
+
+#htmlPreview{
+  background-color:#773344;
+  color:#ffffff;
+}
+
+#htmlPreview ul li{
+  color:#ffffff;
+}
+
+#mobileNav{
+  display:none;
+}
+@media (max-width: 800px) {
+
+  #homeImage{
+    display:none;
+  }
+
+  #mobileHomeImage{
+    display:inline;
+    width:100%;
+  }
+#mainNav{
+  display:none;
+}
+
+#mobileNav{
+  position:relative;
+  float:left;
+  display:block;
+  width:30%;
+}
+
+#mobileNav li{
+    list-style-type:none;
+}
+
+
+h1{
+  text-align:center;
+  margin-right:5px;
+}
+
+#title{
+  width:70%;
+}
+
+#whatIs{
+  display:block;
+  clear:both;
+}
+
+#javaPreview, #htmlPreview, #jsPreview{
+  display:none;
+}
+.resourcesUL{
+  width:100%;
+}
+
+.javaTopicImg, .htmlTopicImg, .jsTopicImg{
+  width:50%;
+}
+
+#resourcesNav{
+  padding-top:15px;
+  text-align:center;
+  display:block;
+  clear:both;
+  width:100%;
+}
+
+footer{
+  display:none;
+}
+}
